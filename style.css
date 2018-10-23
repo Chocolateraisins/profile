@@ -1,0 +1,110 @@
+body {
+  background-color: pink;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
+  color: 854836;
+}
+
+p {
+  color: 693e52;
+}
+
+h1, h2, h3 {
+  color: ea9085;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: ea9085;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: 693e52;
+}
+
+td {
+  padding: 0px 10px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+#img-profile {
+    width: 100px;
+    height: 100px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.size-of-social {
+  font-size: 50px;
+  padding: 10px 20px;
+  color: ea9085;
+}
+
+.size-of-image {
+  width: 120px;
+  padding: 10px 0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
